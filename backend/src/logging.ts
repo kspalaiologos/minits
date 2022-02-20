@@ -1,0 +1,7 @@
+
+import { Logger } from "tslog";
+
+export const logger:Logger = new Logger({
+    displayFunctionName: false,
+    displayFilePath: "hidden"
+});

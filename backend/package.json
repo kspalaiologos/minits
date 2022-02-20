@@ -1,0 +1,33 @@
+{
+  "name": "minits",
+  "version": "0.0.1",
+  "description": "A convenient CI server.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build"
+  },
+  "keywords": [
+    "CI",
+    "server",
+    "integration"
+  ],
+  "author": "Kamila Akagi",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.1",
+    "@types/express": "^4.17.13",
+    "@types/express-fileupload": "^1.1.7",
+    "@types/node": "^14.14.10",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@types/extract-zip": "^2.0.1",
+    "@types/rimraf": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "rimraf": "^3.0.2",
+    "tslog": "^3.2.0"
+  }
+}
